@@ -1,0 +1,215 @@
+body{
+    font-family: Montserrat;
+    text-align: center;
+}
+h1,h2,h3 {
+    font-family: Montserrat-bold;
+}
+.big-heading {
+    color: aliceblue;
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+
+.container-fluid {
+    padding: 3% 15% 7%;
+
+}
+#title {
+    background-color: #ff4c68;
+}
+
+/* Navbar tags */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-family: Montserrat-regular;
+    font-size: 1.3rem;
+}
+
+/* downolad-btn */
+.downolad-btn {
+    margin: 48px 32px 0 0;
+}
+
+/* title-image */
+.title-image {
+    width: 90%;
+    margin-top: 20px;
+    right: 10%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* features Section */
+#features {
+    padding: 10% 15%;
+    background-color: aliceblue;
+    position: relative;
+    z-index: 1;
+}
+.feature-title{
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+.features-box {
+    padding: 5%;
+}
+.icon {
+    color: #f05945;
+    margin-bottom:1rem ;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* cats images */
+
+#images {
+    font-family: Montserrat-black;
+    background-color: #CE1F6A;
+    padding: 5%;
+}
+.image {
+    width: 15%;
+    margin: 10px;
+    border-radius: 100%;
+}
+
+.images-text {
+    color: #480032;
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 3rem;  
+}
+
+.p2 {
+    font-size: 1rem;
+    color: #480032;
+}
+
+
+ /* Testimonials Section */
+
+ #testimonials {
+     background-color: #e93b81;
+     color: aliceblue;
+ }
+ .testimonial-text{
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height: 4rem;
+ }
+ .testimonials-div {
+     padding: 7% 15%;
+ }
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 40px;
+}
+#press {
+    background-color: #CE1F6A;
+    padding: 5%;
+}
+.press {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+ 
+/* pricing section */
+#pricing {
+    font-family: Montserrat-black;
+    padding: 10% 15%;
+}
+.price-text {
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height: 4rem;
+}
+
+.pricing-column {
+    padding: 5% 2%;
+}
+.pricing-heading {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.p1 {
+    color: #8f8f8f;
+}
+   /* Call to Action */
+#cta {
+    background-color: #ff4c68;
+    font-family: Montserrat-black;
+    color: aliceblue;
+    padding: 150px 100px;
+}
+.cta {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+
+    /* footer */
+#footer {
+    background-color: aliceblue;
+    padding: 100px 100px 50px;
+
+}
+.footer-link1 {
+    color: #f14668;
+}
+.footer-link2{
+    color: #185adb;
+}
+a:hover {
+    color: #f05945 ;
+}
+.p3 {
+    font-size: 0.65rem;
+    color: #8f8f8f;
+}
+.social-website {
+    margin: 20px 10px;
+}
+
+   /* responsiveness */
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        margin-left: 10px;
+    }
+    .testimonial-text {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    #cta {
+        padding: 100px 75px;
+    }
+    .cta {
+        font-size: 2rem;
+    }
+}
+@media (min-width: 932px) {
+    .p2 {
+        font-size: 1.5rem;
+    }   
+}
